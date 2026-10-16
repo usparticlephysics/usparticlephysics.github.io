@@ -1,0 +1,29 @@
+---
+layout: wp
+---
+<section id="content" role="main">
+{% include intro.html %}
+<div class='content-wrapper'>
+	<div class="grid-wrapper">
+		<section class='res-list'>
+			{%- for section in page.sections %}
+			<h1>{{ section.title }}</h1>
+			{%- if section.note %}
+			<br>
+			<small style="padding: 0 10px; float: left; font: regular 400 .777777778em/1.285714286em 'Arimo',sans-serif; margin-top: 5px; color: #888;">{{ section.note }}</small>
+			{%- endif %}
+			<ul>
+				{%- for item in section.items %}
+				<li class='res-list-{% if item.download %}dwnld{% else %}link{% endif %}'>
+					<a href='{{ item.download | default: item.url | relative_url }}'>
+						{{ item.title }}
+					</a>
+				</li>
+				{%- endfor %}
+			</ul>
+			{%- endfor %}
+		</section>
+		{{ content }}
+	</div>
+</div>
+</section>

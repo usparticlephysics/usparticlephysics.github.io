@@ -1,0 +1,18 @@
+<div class='comp-image2'>
+<div class='image2-L'>
+<div class='img-square'>
+<div class='img-content'>
+<img src='{{ include.left | relative_url }}' />
+</div>
+</div>
+<p>{{ include.left_caption | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
+</div>
+<div class='image2-R'>
+<div class='img-square'>
+<div class='img-content'>
+<img src='{{ include.right | relative_url }}' />
+</div>
+</div>
+<p>{{ include.right_caption | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
+</div>
+</div>

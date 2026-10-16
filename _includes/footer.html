@@ -1,0 +1,18 @@
+<div class='grid-wrapper-footer'>
+<footer>
+  <div class='border-thick'>&nbsp;</div>
+  <div class='footer-credits'>
+    <p class='footer-credits-info'>
+      {{ site.footer.contact_label }}
+      {% for c in site.footer.contacts -%}
+      <a href='mailto:{{ c.email }}?subject=from%20usparticlephysics.org'>{{ c.name }}&nbsp;</a>{% unless forloop.last %} and&nbsp; {% endunless %}
+      {%- endfor %}
+    </p>
+    <p class='footer-credits-credit'>
+      <a href='{{ "/site-credits/" | relative_url }}'>Site Credits</a>
+    </p>
+    <div class='border-thin'>&nbsp;</div>
+    <p class='footer-credits-funders'>{{ site.footer.funders }}</p>
+  </div>
+</footer>
+</div>

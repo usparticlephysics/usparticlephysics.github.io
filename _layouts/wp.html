@@ -1,0 +1,13 @@
+<!doctype html>
+<html class="no-js" lang="en">
+{% include head.html %}
+<body class="{{ page.body_class }}">
+{% include header.html %}
+{{ content }}
+{% include footer.html %}
+<script src="{{ '/wp-includes/js/jquery/jquery.min.js' | relative_url }}"></script>
+<script src="{{ '/wp-includes/js/jquery/jquery-migrate.min.js' | relative_url }}"></script>
+<script>var USPP_root = {"templateUrl": "{{ '/wp-content/themes/USPP' | absolute_url }}"};</script>
+<script src="{{ '/wp-content/themes/USPP/js/global_prod.min.js' | relative_url }}"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+# Site settings
+title: U.S. Particle Physics
+shorttitle: USPP
+email: Peter.Elmer@cern.ch
+description: >-
+  U.S. Particle Physics: information about particle physics in the United
+  States, the P5 strategic planning process, and resources for physicists.
+baseurl: ""
+url: "https://usparticlephysics.org"
+
+
+footer:
+  contact_label: "For More Info Contact the P5 Chairs:"
+  contacts:
+    - name: Karsten Heeger
+      email: karsten.heeger@yale.edu
+    - name: Hitoshi Murayama
+      email: hitoshi@berkeley.edu
+  funders: >-
+    Supported by: APS Division of Particles and Fields, Fermilab Users
+    Executive Committee, SLAC Users Organization, and the U.S. Large Hadron
+    Collider Users Association
+
+# Build settings
+strict_front_matter: true
+markdown: kramdown
+kramdown:
+  auto_ids: false
+  smart_quotes: ["apos", "apos", "quot", "quot"]
+  typographic_symbols: {hellip: "...", mdash: "---", ndash: "--", laquo: "<<", raquo: ">>", laquo_space: "<< ", raquo_space: " >>"}
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - README.md
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - _cache
+  - bin
+  - .github
+

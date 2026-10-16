@@ -1,0 +1,19 @@
+{%- if include.offsite -%}
+{%- assign kind = 'link' -%}{%- assign icon = 'offsite_icon.svg' -%}
+{%- else -%}
+{%- assign kind = 'download' -%}{%- assign icon = 'pdf_icon.svg' -%}
+{%- endif -%}
+<div class='comp-{{ kind }}'>
+<div class='download-content'>
+<div class='border-thin'>&nbsp;</div>
+<a href='{{ include.url | relative_url }}'>
+<div class='download-img'>
+<img src='{{ "/wp-content/themes/USPP/img/" | append: icon | relative_url }}' />
+</div>
+<p class='download-title'>{{ include.title }}</p>
+{%- if include.size %}
+<p class='download-size'>{{ include.size }}</p>
+{%- endif %}
+</a>
+</div>
+</div>

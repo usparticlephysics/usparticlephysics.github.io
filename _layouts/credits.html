@@ -1,0 +1,31 @@
+---
+layout: wp
+---
+<section id="content" role="main">
+<div class='content-wrapper'>
+	<div class="grid-wrapper">
+		<section class='credits-supporters'>
+			<h1>{{ page.supporters_title }}</h1>
+			{%- for s in page.supporters %}
+			<div class='supporters-credit'>
+				<div class='img-square'>
+					<div class='supporters-credit-image img-content'>
+						<img src='{{ s.logo | relative_url }}' />
+					</div>
+				</div>
+				<h2>{{ s.name }}</h2>
+			</div>
+			{%- endfor %}
+		</section>
+		<section class='credits-attribution'>
+			<h1>{{ page.title }}</h1>
+			{%- for a in page.attributions %}
+			<div class='attribution-credit'>
+				<h3>{{ a.role }}&nbsp;<a href='{{ a.url }}'>{{ a.name }}</a></h3>
+			</div>
+			{%- endfor %}
+		</section>
+		{{ content }}
+	</div>
+</div>
+</section>

@@ -1,0 +1,409 @@
+{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"name":"University of Alabama-Birmingham","type":"Academic","url":"https://www.uab.edu/home/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[8.06837133514289,-4.8622219849161405]},"bbox":[8.06837133514289,-4.8622219849161405,8.06837133514289,-4.8622219849161405]}
+,
+{"type":"Feature","properties":{"name":"University of Alabama-Tuscaloosa","type":"Academic","url":"https://www.ua.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[7.486603169679699,-5.216170135084863]},"bbox":[7.486603169679699,-5.216170135084863,7.486603169679699,-5.216170135084863]}
+,
+{"type":"Feature","properties":{"name":"University of South Alabama","type":"Academic","url":"https://www.southalabama.edu/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[7.160150032054741,-7.7667893669127706]},"bbox":[7.160150032054741,-7.7667893669127706,7.160150032054741,-7.7667893669127706]}
+,
+{"type":"Feature","properties":{"name":"Arizona State University","type":"Academic","url":"https://www.asu.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[-12.681078670743576,-4.222750712584206]},"bbox":[-12.681078670743576,-4.222750712584206,-12.681078670743576,-4.222750712584206]}
+,
+{"type":"Feature","properties":{"name":"University of Arizona","type":"Academic","url":"https://www.arizona.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[-12.064152751737184,-5.526886276730841]},"bbox":[-12.064152751737184,-5.526886276730841,-12.064152751737184,-5.526886276730841]}
+,
+{"type":"Feature","properties":{"name":"California Institute of Technology","type":"Academic","url":"https://www.caltech.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[-17.544676309306187,-2.4993359839520077]},"bbox":[-17.544676309306187,-2.4993359839520077,-17.544676309306187,-2.4993359839520077]}
+,
+{"type":"Feature","properties":{"name":"California Polytechnic State University","type":"Academic","url":"https://www.calpoly.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[-19.262283440205998,-0.8594244649190662]},"bbox":[-19.262283440205998,-0.8594244649190662,-19.262283440205998,-0.8594244649190662]}
+,
+{"type":"Feature","properties":{"name":"California State University Stanislaus","type":"Academic","url":"https://www.csustan.edu/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[-18.83550107489633,1.3504800143485327]},"bbox":[-18.83550107489633,1.3504800143485327,-18.83550107489633,1.3504800143485327]}
+,
+{"type":"Feature","properties":{"name":"California State University-East Bay","type":"Academic","url":"https://www.csueastbay.edu/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[-19.691480914740797,1.7218217267615608]},"bbox":[-19.691480914740797,1.7218217267615608,-19.691480914740797,1.7218217267615608]}
+,
+{"type":"Feature","properties":{"name":"California State University-Long Beach Foundation","type":"Non-profit","url":"https://www.csulb.edu/research-foundation","funder":"NSF"},"geometry":{"type":"Point","coordinates":[-17.618364634831096,-2.847895706182905]},"bbox":[-17.618364634831096,-2.847895706182905,-17.618364634831096,-2.847895706182905]}
+,
+{"type":"Feature","properties":{"name":"California State University-Sacremento","type":"Academic","url":"https://www.csus.edu/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[-19.00023512632947,2.48491553490629]},"bbox":[-19.00023512632947,2.48491553490629,-19.00023512632947,2.48491553490629]}
+,
+{"type":"Feature","properties":{"name":"Harvey Mudd College","type":"Academic","url":"https://www.hmc.edu/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[-17.19930183169402,-2.54635749568337]},"bbox":[-17.19930183169402,-2.54635749568337,-17.19930183169402,-2.54635749568337]}
+,
+{"type":"Feature","properties":{"name":"Lawrence Berkeley National Laboratory","type":"National Laboratory","url":"https://www.lbl.gov/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[-19.803690382907885,1.9779403535057027]},"bbox":[-19.803690382907885,1.9779403535057027,-19.803690382907885,1.9779403535057027]}
+,
+{"type":"Feature","properties":{"name":"Lawrence Livermore National Laboratory","type":"National Laboratory","url":"https://www.llnl.gov/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[-19.480309477041565,1.7651579310926782]},"bbox":[-19.480309477041565,1.7651579310926782,-19.480309477041565,1.7651579310926782]}
+,
+{"type":"Feature","properties":{"name":"SLAC National Accelerator Laboratory","type":"National Laboratory","url":"https://www6.slac.stanford.edu/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[-19.859945266699164,1.5515382793760866]},"bbox":[-19.859945266699164,1.5515382793760866,-19.859945266699164,1.5515382793760866]}
+,
+{"type":"Feature","properties":{"name":"San Diego State University","type":"Academic","url":"https://www.sdsu.edu/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[-17.004864817877877,-4.032929177596584]},"bbox":[-17.004864817877877,-4.032929177596584,-17.004864817877877,-4.032929177596584]}
+,
+{"type":"Feature","properties":{"name":"San Francisco State University","type":"Academic","url":"https://www.sfsu.edu/index.html","funder":"DOE"},"geometry":{"type":"Point","coordinates":[-20.016496158079043,1.879000122330329]},"bbox":[-20.016496158079043,1.879000122330329,-20.016496158079043,1.879000122330329]}
+,
+{"type":"Feature","properties":{"name":"San Jose State University Research Foundation","type":"Non-profit","url":"https://www.sjsu.edu/researchfoundation/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[-19.664137683895532,1.3780023835177626]},"bbox":[-19.664137683895532,1.3780023835177626,-19.664137683895532,1.3780023835177626]}
+,
+{"type":"Feature","properties":{"name":"Sonoma State University","type":"Academic","url":"https://www.sonoma.edu/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[-19.98279348212863,2.5234286525205767]},"bbox":[-19.98279348212863,2.5234286525205767,-19.98279348212863,2.5234286525205767]}
+,
+{"type":"Feature","properties":{"name":"Stanford University","type":"Academic","url":"https://www.stanford.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[-19.878386998828915,1.4863131992005292]},"bbox":[-19.878386998828915,1.4863131992005292,-19.878386998828915,1.4863131992005292]}
+,
+{"type":"Feature","properties":{"name":"University Enterprises Corporation at CSUSB","type":"Private","url":"https://www.csusb.edu/university-enterprises-corporation","funder":"DOE"},"geometry":{"type":"Point","coordinates":[-16.892389528591085,-2.6059622713708825]},"bbox":[-16.892389528591085,-2.6059622713708825,-16.892389528591085,-2.6059622713708825]}
+,
+{"type":"Feature","properties":{"name":"University of California-Berkeley","type":"Academic","url":"https://www.berkeley.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[-19.812048663726916,1.9735814566428118]},"bbox":[-19.812048663726916,1.9735814566428118,-19.812048663726916,1.9735814566428118]}
+,
+{"type":"Feature","properties":{"name":"University of California-Davis","type":"Academic","url":"https://www.ucdavis.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[-19.171098052715465,2.480692300588739]},"bbox":[-19.171098052715465,2.480692300588739,-19.171098052715465,2.480692300588739]}
+,
+{"type":"Feature","properties":{"name":"University of California-Irvine","type":"Academic","url":"https://uci.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[-17.431393056683536,-3.033332640488776]},"bbox":[-17.431393056683536,-3.033332640488776,-17.431393056683536,-3.033332640488776]}
+,
+{"type":"Feature","properties":{"name":"University of California-Los Angeles","type":"Academic","url":"https://www.ucla.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[-17.815741753380898,-2.5046437338322294]},"bbox":[-17.815741753380898,-2.5046437338322294,-17.815741753380898,-2.5046437338322294]}
+,
+{"type":"Feature","properties":{"name":"University of California-Riverside","type":"Academic","url":"https://www.ucr.edu/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[-16.94620254468068,-2.8060961291453657]},"bbox":[-16.94620254468068,-2.8060961291453657,-16.94620254468068,-2.8060961291453657]}
+,
+{"type":"Feature","properties":{"name":"University of California-San Diego","type":"Academic","url":"https://ucsd.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[-17.111561166763533,-3.8934931393226915]},"bbox":[-17.111561166763533,-3.8934931393226915,-17.111561166763533,-3.8934931393226915]}
+,
+{"type":"Feature","properties":{"name":"University of California-Santa Barbara","type":"Academic","url":"https://www.ucsb.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[-18.85124404382081,-1.8912829819115178]},"bbox":[-18.85124404382081,-1.8912829819115178,-18.85124404382081,-1.8912829819115178]}
+,
+{"type":"Feature","properties":{"name":"University of California-Santa Cruz","type":"Academic","url":"https://www.ucsc.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[-19.892261804308532,1.0821927411623418]},"bbox":[-19.892261804308532,1.0821927411623418,-19.892261804308532,1.0821927411623418]}
+,
+{"type":"Feature","properties":{"name":"University of San Diego","type":"Academic","url":"https://www.sandiego.edu/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[-17.09946063868853,-4.011952928942456]},"bbox":[-17.09946063868853,-4.011952928942456,-17.09946063868853,-4.011952928942456]}
+,
+{"type":"Feature","properties":{"name":"University of Southern California","type":"Academic","url":"https://www.usc.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[-17.70324995812596,-2.581537397532925]},"bbox":[-17.70324995812596,-2.581537397532925,-17.70324995812596,-2.581537397532925]}
+,
+{"type":"Feature","properties":{"name":"University of the Pacific","type":"Academic","url":"https://www.pacific.edu/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[-19.06273549751824,1.886420919195711]},"bbox":[-19.06273549751824,1.886420919195711,-19.06273549751824,1.886420919195711]}
+,
+{"type":"Feature","properties":{"name":"Westmont College","type":"Academic","url":"https://www.westmont.edu/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[-18.692845111090406,-1.8948353667923474]},"bbox":[-18.692845111090406,-1.8948353667923474,-18.692845111090406,-1.8948353667923474]}
+,
+{"type":"Feature","properties":{"name":"Aspen Center for Physics","type":"Non-profit","url":"https://www.aspenphys.org/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[-7.8682191417228795,0.8908750055305469]},"bbox":[-7.8682191417228795,0.8908750055305469,-7.8682191417228795,0.8908750055305469]}
+,
+{"type":"Feature","properties":{"name":"Colorado School of Mines","type":"Academic","url":"https://www.mines.edu/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[-6.560422478920426,1.3653775049711516]},"bbox":[-6.560422478920426,1.3653775049711516,-6.560422478920426,1.3653775049711516]}
+,
+{"type":"Feature","properties":{"name":"Colorado State University","type":"Academic","url":"https://www.colostate.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[-6.37111661545277,2.212813189468994]},"bbox":[-6.37111661545277,2.212813189468994,-6.37111661545277,2.212813189468994]}
+,
+{"type":"Feature","properties":{"name":"RadiaSoft LLC","type":"Private","url":"https://www.radiasoft.net/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[-6.540363206007944,1.671854281339947]},"bbox":[-6.540363206007944,1.671854281339947,-6.540363206007944,1.671854281339947]}
+,
+{"type":"Feature","properties":{"name":"University of Colorado-Boulder","type":"Academic","url":"https://www.colorado.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[-6.51488151510711,1.6494954066382794]},"bbox":[-6.51488151510711,1.6494954066382794,-6.51488151510711,1.6494954066382794]}
+,
+{"type":"Feature","properties":{"name":"University of Colorado-Denver","type":"Academic","url":"https://www.ucdenver.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[-6.257916174664723,1.3714552036642174]},"bbox":[-6.257916174664723,1.3714552036642174,-6.257916174664723,1.3714552036642174]}
+,
+{"type":"Feature","properties":{"name":"University of Connecticut","type":"Academic","url":"https://uconn.edu/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[17.850751014714273,5.321379972123467]},"bbox":[17.850751014714273,5.321379972123467,17.850751014714273,5.321379972123467]}
+,
+{"type":"Feature","properties":{"name":"Wesleyan University","type":"Academic","url":"https://www.wesleyan.edu/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[17.624126540227834,4.992577237084404]},"bbox":[17.624126540227834,4.992577237084404,17.624126540227834,4.992577237084404]}
+,
+{"type":"Feature","properties":{"name":"Yale University","type":"Academic","url":"https://www.yale.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[17.487149143689713,4.699536640485825]},"bbox":[17.487149143689713,4.699536640485825,17.487149143689713,4.699536640485825]}
+,
+{"type":"Feature","properties":{"name":"National Academy of Sciences","type":"Non-profit","url":"https://www.nasonline.org/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[14.994433727902141,1.6682181648778682]},"bbox":[14.994433727902141,1.6682181648778682,14.994433727902141,1.6682181648778682]}
+,
+{"type":"Feature","properties":{"name":"Naval Research Laboratory","type":"National Laboratory","url":"https://www.nrl.navy.mil/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[15.01041545723423,1.5783979479889538]},"bbox":[15.01041545723423,1.5783979479889538,15.01041545723423,1.5783979479889538]}
+,
+{"type":"Feature","properties":{"name":"Universities Research Association Inc","type":"Non-profit","url":"https://ura-hq.org/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[14.978922424292684,1.6609738722230425]},"bbox":[14.978922424292684,1.6609738722230425,14.978922424292684,1.6609738722230425]}
+,
+{"type":"Feature","properties":{"name":"University of Delaware","type":"Academic","url":"https://www.udel.edu/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[15.790245708312856,2.613164117276804]},"bbox":[15.790245708312856,2.613164117276804,15.790245708312856,2.613164117276804]}
+,
+{"type":"Feature","properties":{"name":"Florida A&M University","type":"Academic","url":"https://www.famu.edu/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[10.518384578236754,-7.696140777606126]},"bbox":[10.518384578236754,-7.696140777606126,10.518384578236754,-7.696140777606126]}
+,
+{"type":"Feature","properties":{"name":"Florida Institute of Technology","type":"Academic","url":"https://www.fit.edu/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[14.02169165282742,-9.55718923788078]},"bbox":[14.02169165282742,-9.55718923788078,14.02169165282742,-9.55718923788078]}
+,
+{"type":"Feature","properties":{"name":"Florida International University","type":"Academic","url":"https://www.fiu.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[14.610266673758883,-11.743756198729631]},"bbox":[14.610266673758883,-11.743756198729631,14.610266673758883,-11.743756198729631]}
+,
+{"type":"Feature","properties":{"name":"Florida State University","type":"Academic","url":"https://www.fsu.edu/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[10.515512422357375,-7.678585804045924]},"bbox":[10.515512422357375,-7.678585804045924,10.515512422357375,-7.678585804045924]}
+,
+{"type":"Feature","properties":{"name":"University of Florida","type":"Academic","url":"https://www.ufl.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[12.268246761605246,-8.273796376745535]},"bbox":[12.268246761605246,-8.273796376745535,12.268246761605246,-8.273796376745535]}
+,
+{"type":"Feature","properties":{"name":"University of Miami","type":"Academic","url":"https://welcome.miami.edu/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[14.704970057254126,-11.764153229224728]},"bbox":[14.704970057254126,-11.764153229224728,14.704970057254126,-11.764153229224728]}
+,
+{"type":"Feature","properties":{"name":"University of North Florida","type":"Academic","url":"https://www.unf.edu/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[12.912334224575968,-7.523856420163826]},"bbox":[12.912334224575968,-7.523856420163826,12.912334224575968,-7.523856420163826]}
+,
+{"type":"Feature","properties":{"name":"Georgia Tech","type":"Academic","url":"https://www.gatech.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[10.028315650639653,-4.386694434246539]},"bbox":[10.028315650639653,-4.386694434246539,10.028315650639653,-4.386694434246539]}
+,
+{"type":"Feature","properties":{"name":"Kennesaw State University","type":"Academic","url":"https://www.kennesaw.edu/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[9.822074329739076,-4.15507744305284]},"bbox":[9.822074329739076,-4.15507744305284,9.822074329739076,-4.15507744305284]}
+,
+{"type":"Feature","properties":{"name":"University of Hawaii","type":"Academic","url":"https://manoa.hawaii.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[-9.679588680645354,-10.68936974560926]},"bbox":[-9.679588680645354,-10.68936974560926,-9.679588680645354,-10.68936974560926]}
+,
+{"type":"Feature","properties":{"name":"Ames Laboratory","type":"National Laboratory","url":"https://www.ameslab.gov/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[2.1981269630424203,3.3772613520166956]},"bbox":[2.1981269630424203,3.3772613520166956,2.1981269630424203,3.3772613520166956]}
+,
+{"type":"Feature","properties":{"name":"Iowa State University","type":"Academic","url":"https://www.iastate.edu/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[2.1983163807065673,3.375971786494537]},"bbox":[2.1983163807065673,3.375971786494537,2.1983163807065673,3.375971786494537]}
+,
+{"type":"Feature","properties":{"name":"Luther College","type":"Academic","url":"https://www.luther.edu/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[3.5332255943178543,4.792079238021285]},"bbox":[3.5332255943178543,4.792079238021285,3.5332255943178543,4.792079238021285]}
+,
+{"type":"Feature","properties":{"name":"University of Iowa","type":"Academic","url":"https://uiowa.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[3.763125561527542,3.060068549249621]},"bbox":[3.763125561527542,3.060068549249621,3.763125561527542,3.060068549249621]}
+,
+{"type":"Feature","properties":{"name":"Boise State University","type":"Academic","url":"https://www.boisestate.edu/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[-13.99054963601287,6.467623318376216]},"bbox":[-13.99054963601287,6.467623318376216,-13.99054963601287,6.467623318376216]}
+,
+{"type":"Feature","properties":{"name":"Argonne National Laboratory","type":"National Laboratory","url":"https://www.anl.gov/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[6.4149339300137,3.247969450418957]},"bbox":[6.4149339300137,3.247969450418957,6.4149339300137,3.247969450418957]}
+,
+{"type":"Feature","properties":{"name":"College of DuPage","type":"Academic","url":"https://www.cod.edu/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[6.319201751592601,3.410156463080566]},"bbox":[6.319201751592601,3.410156463080566,6.319201751592601,3.410156463080566]}
+,
+{"type":"Feature","properties":{"name":"Fermi National Accelerator Laboratory","type":"National Laboratory","url":"https://www.fnal.gov/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[6.1132568090782184,3.3900134308472047]},"bbox":[6.1132568090782184,3.3900134308472047,6.1132568090782184,3.3900134308472047]}
+,
+{"type":"Feature","properties":{"name":"Illinois Institute of Technology","type":"Academic","url":"https://www.iit.edu/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[6.657973138591328,3.4379662316788293]},"bbox":[6.657973138591328,3.4379662316788293,6.657973138591328,3.4379662316788293]}
+,
+{"type":"Feature","properties":{"name":"Loyola University Chicago","type":"Academic","url":"https://www.luc.edu/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[6.611193216744266,3.5937172084009306]},"bbox":[6.611193216744266,3.5937172084009306,6.611193216744266,3.5937172084009306]}
+,
+{"type":"Feature","properties":{"name":"Northern Illinois University","type":"Academic","url":"https://www.niu.edu/index.shtml","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[5.802650787799248,3.4210108523336205]},"bbox":[5.802650787799248,3.4210108523336205,5.802650787799248,3.4210108523336205]}
+,
+{"type":"Feature","properties":{"name":"Northwestern University","type":"Academic","url":"https://www.northwestern.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[6.580513360937059,3.652843184988449]},"bbox":[6.580513360937059,3.652843184988449,6.580513360937059,3.652843184988449]}
+,
+{"type":"Feature","properties":{"name":"University of Chicago","type":"Academic","url":"https://www.uchicago.edu/en","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[6.670565525828916,3.3786787731776093]},"bbox":[6.670565525828916,3.3786787731776093,6.670565525828916,3.3786787731776093]}
+,
+{"type":"Feature","properties":{"name":"University of Illinois at Chicago","type":"Academic","url":"https://www.uic.edu/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[6.596194087639112,3.474245231575733]},"bbox":[6.596194087639112,3.474245231575733,6.596194087639112,3.474245231575733]}
+,
+{"type":"Feature","properties":{"name":"University of Illinois at Urbana-Champaign","type":"Academic","url":"https://illinois.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[6.337252779635886,1.6681812998028056]},"bbox":[6.337252779635886,1.6681812998028056,6.337252779635886,1.6681812998028056]}
+,
+{"type":"Feature","properties":{"name":"Indiana University","type":"Academic","url":"https://www.iu.edu/index.html","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[7.802583505190663,0.7509855194450541]},"bbox":[7.802583505190663,0.7509855194450541,7.802583505190663,0.7509855194450541]}
+,
+{"type":"Feature","properties":{"name":"Purdue University","type":"Academic","url":"https://www.purdue.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[7.298917598871733,2.081080504856181]},"bbox":[7.298917598871733,2.081080504856181,7.298917598871733,2.081080504856181]}
+,
+{"type":"Feature","properties":{"name":"University of Notre Dame","type":"Academic","url":"https://www.nd.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[7.682411473714229,3.3984834292521624]},"bbox":[7.682411473714229,3.3984834292521624,7.682411473714229,3.3984834292521624]}
+,
+{"type":"Feature","properties":{"name":"Kansas State University","type":"Academic","url":"https://www.k-state.edu/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[0.017763575770063142,0.5045266862955501]},"bbox":[0.017763575770063142,0.5045266862955501,0.017763575770063142,0.5045266862955501]}
+,
+{"type":"Feature","properties":{"name":"University of Kansas","type":"Academic","url":"https://ku.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[1.0292274072892058,0.25309392423414157]},"bbox":[1.0292274072892058,0.25309392423414157,1.0292274072892058,0.25309392423414157]}
+,
+{"type":"Feature","properties":{"name":"Wichita State University","type":"Academic","url":"https://www.wichita.edu/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[-0.5532893728362913,-0.9878584179974582]},"bbox":[-0.5532893728362913,-0.9878584179974582,-0.5532893728362913,-0.9878584179974582]}
+,
+{"type":"Feature","properties":{"name":"University of Kentucky","type":"Academic","url":"https://www.uky.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[9.405946465497454,-0.1273577649943137]},"bbox":[9.405946465497454,-0.1273577649943137,9.405946465497454,-0.1273577649943137]}
+,
+{"type":"Feature","properties":{"name":"University of Louisville","type":"Academic","url":"https://louisville.edu/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[8.416605120346935,-0.06282647517548025]},"bbox":[8.416605120346935,-0.06282647517548025,8.416605120346935,-0.06282647517548025]}
+,
+{"type":"Feature","properties":{"name":"Louisiana State University","type":"Academic","url":"https://www.lsu.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[4.610714474719691,-8.215872868156774]},"bbox":[4.610714474719691,-8.215872868156774,4.610714474719691,-8.215872868156774]}
+,
+{"type":"Feature","properties":{"name":"Louisiana Tech University","type":"Academic","url":"https://www.latech.edu/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[3.2722266629736385,-6.166181457485895]},"bbox":[3.2722266629736385,-6.166181457485895,3.2722266629736385,-6.166181457485895]}
+,
+{"type":"Feature","properties":{"name":"American Association of Variable Star Observers","type":"Non-profit","url":"https://www.aavso.org/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[18.49562655395805,6.081050357046595]},"bbox":[18.49562655395805,6.081050357046595,18.49562655395805,6.081050357046595]}
+,
+{"type":"Feature","properties":{"name":"Boston University","type":"Academic","url":"https://www.bu.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[18.536654636754726,6.04717075556393]},"bbox":[18.536654636754726,6.04717075556393,18.536654636754726,6.04717075556393]}
+,
+{"type":"Feature","properties":{"name":"Brandeis University","type":"Academic","url":"https://www.brandeis.edu/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[18.421142267760473,6.031839394761186]},"bbox":[18.421142267760473,6.031839394761186,18.421142267760473,6.031839394761186]}
+,
+{"type":"Feature","properties":{"name":"Harvard University","type":"Academic","url":"https://www.harvard.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[18.500749840207916,6.07150110712197]},"bbox":[18.500749840207916,6.07150110712197,18.500749840207916,6.07150110712197]}
+,
+{"type":"Feature","properties":{"name":"Massachusetts Institute of Technology","type":"Academic","url":"https://www.mit.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[18.530080256596754,6.063178863238965]},"bbox":[18.530080256596754,6.063178863238965,18.530080256596754,6.063178863238965]}
+,
+{"type":"Feature","properties":{"name":"Northeastern University","type":"Academic","url":"https://www.northeastern.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[18.54604087941564,6.041679089077417]},"bbox":[18.54604087941564,6.041679089077417,18.54604087941564,6.041679089077417]}
+,
+{"type":"Feature","properties":{"name":"Smithsonian Astrophysical Observatory","type":"Academic","url":"https://pweb.cfa.harvard.edu/about/about-smithsonian-astrophysical-observatory","funder":"NSF"},"geometry":{"type":"Point","coordinates":[18.500749840207916,6.07150110712197]},"bbox":[18.500749840207916,6.07150110712197,18.500749840207916,6.07150110712197]}
+,
+{"type":"Feature","properties":{"name":"Tufts University","type":"Academic","url":"https://www.tufts.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[18.509516763812602,6.122711030554885]},"bbox":[18.509516763812602,6.122711030554885,18.509516763812602,6.122711030554885]}
+,
+{"type":"Feature","properties":{"name":"University of Massachusetts-Amherst","type":"Academic","url":"https://www.umass.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[17.51467242535187,5.8324300319803974]},"bbox":[17.51467242535187,5.8324300319803974,17.51467242535187,5.8324300319803974]}
+,
+{"type":"Feature","properties":{"name":"Wellesley College","type":"Academic","url":"https://www.wellesley.edu/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[18.418027508732607,5.976034617935264]},"bbox":[18.418027508732607,5.976034617935264,18.418027508732607,5.976034617935264]}
+,
+{"type":"Feature","properties":{"name":"Williams College","type":"Academic","url":"https://www.williams.edu/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[16.95376304154145,6.0210986390622345]},"bbox":[16.95376304154145,6.0210986390622345,16.95376304154145,6.0210986390622345]}
+,
+{"type":"Feature","properties":{"name":"American Physical Society","type":"Non-profit","url":"https://www.aps.org/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[15.049653873589701,1.741006049460248]},"bbox":[15.049653873589701,1.741006049460248,15.049653873589701,1.741006049460248]}
+,
+{"type":"Feature","properties":{"name":"Johns Hopkins University","type":"Academic","url":"https://www.jhu.edu/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[15.224186559341222,2.1479548313578807]},"bbox":[15.224186559341222,2.1479548313578807,15.224186559341222,2.1479548313578807]}
+,
+{"type":"Feature","properties":{"name":"US Naval Academy","type":"Academic","url":"https://www.usna.edu/homepage.php","funder":"DOE"},"geometry":{"type":"Point","coordinates":[15.372411687229834,1.8247011534703272]},"bbox":[15.372411687229834,1.8247011534703272,15.372411687229834,1.8247011534703272]}
+,
+{"type":"Feature","properties":{"name":"University of Maryland","type":"Academic","url":"https://umd.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[15.035148813263561,1.7575975331211222]},"bbox":[15.035148813263561,1.7575975331211222,15.035148813263561,1.7575975331211222]}
+,
+{"type":"Feature","properties":{"name":"University of Maryland Baltimore County","type":"Academic","url":"https://umbc.edu/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[15.157903393504773,2.049486863946959]},"bbox":[15.157903393504773,2.049486863946959,15.157903393504773,2.049486863946959]}
+,
+{"type":"Feature","properties":{"name":"Bowdoin College","type":"Academic","url":"https://www.bowdoin.edu/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[18.91313094845005,7.770818166331907]},"bbox":[18.91313094845005,7.770818166331907,18.91313094845005,7.770818166331907]}
+,
+{"type":"Feature","properties":{"name":"Lawrence Technological University","type":"Academic","url":"https://www.ltu.edu/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[9.779662166063291,4.427514365146617]},"bbox":[9.779662166063291,4.427514365146617,9.779662166063291,4.427514365146617]}
+,
+{"type":"Feature","properties":{"name":"Michigan State University","type":"Academic","url":"https://msu.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[8.855458944780292,4.560869907083964]},"bbox":[8.855458944780292,4.560869907083964,8.855458944780292,4.560869907083964]}
+,
+{"type":"Feature","properties":{"name":"Michigan Technological University","type":"Academic","url":"https://www.mtu.edu/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[5.548106787730932,8.602037251708538]},"bbox":[5.548106787730932,8.602037251708538,5.548106787730932,8.602037251708538]}
+,
+{"type":"Feature","properties":{"name":"Oakland University","type":"Academic","url":"https://oakland.edu/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[9.783886335048383,4.622869895251401]},"bbox":[9.783886335048383,4.622869895251401,9.783886335048383,4.622869895251401]}
+,
+{"type":"Feature","properties":{"name":"University of Michigan-Ann Arbor","type":"Academic","url":"https://umich.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[9.496963418509537,4.217806558698799]},"bbox":[9.496963418509537,4.217806558698799,9.496963418509537,4.217806558698799]}
+,
+{"type":"Feature","properties":{"name":"Wayne State University","type":"Academic","url":"https://wayne.edu/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[9.92238925959292,4.336415579502643]},"bbox":[9.92238925959292,4.336415579502643,9.92238925959292,4.336415579502643]}
+,
+{"type":"Feature","properties":{"name":"Bethel University","type":"Academic","url":"https://www.bethel.edu/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[2.4630958520372133,6.412882541735691]},"bbox":[2.4630958520372133,6.412882541735691,2.4630958520372133,6.412882541735691]}
+,
+{"type":"Feature","properties":{"name":"University of Minnesota-Duluth","type":"Academic","url":"https://www.d.umn.edu/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[3.16380514323083,8.175771720969733]},"bbox":[3.16380514323083,8.175771720969733,3.16380514323083,8.175771720969733]}
+,
+{"type":"Feature","properties":{"name":"University of Minnesota-Twin Cities","type":"Academic","url":"https://twin-cities.umn.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[2.4173521453094886,6.33058397885115]},"bbox":[2.4173521453094886,6.33058397885115,2.4173521453094886,6.33058397885115]}
+,
+{"type":"Feature","properties":{"name":"Missouri University of Science and Technology","type":"Academic","url":"https://www.mst.edu/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[3.7612079850475597,-0.6816997809338643]},"bbox":[3.7612079850475597,-0.6816997809338643,3.7612079850475597,-0.6816997809338643]}
+,
+{"type":"Feature","properties":{"name":"University of Missouri","type":"Academic","url":"https://missouri.edu/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[3.2919198477608016,0.29610218900046786]},"bbox":[3.2919198477608016,0.29610218900046786,3.2919198477608016,0.29610218900046786]}
+,
+{"type":"Feature","properties":{"name":"Washington University","type":"Academic","url":"https://wustl.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[4.850764952315555,0.09755070075386628]},"bbox":[4.850764952315555,0.09755070075386628,4.850764952315555,0.09755070075386628]}
+,
+{"type":"Feature","properties":{"name":"Jackson State University","type":"Academic","url":"https://www.jsums.edu/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[5.332219576124049,-6.2974444585086715]},"bbox":[5.332219576124049,-6.2974444585086715,5.332219576124049,-6.2974444585086715]}
+,
+{"type":"Feature","properties":{"name":"Tougaloo College","type":"Academic","url":"https://www.tougaloo.edu/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[5.3638004542145445,-6.187602410446083]},"bbox":[5.3638004542145445,-6.187602410446083,5.3638004542145445,-6.187602410446083]}
+,
+{"type":"Feature","properties":{"name":"University of Mississippi","type":"Academic","url":"https://olemiss.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[5.750536665284494,-4.190629963967691]},"bbox":[5.750536665284494,-4.190629963967691,5.750536665284494,-4.190629963967691]}
+,
+{"type":"Feature","properties":{"name":"Duke University","type":"Academic","url":"https://duke.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[14.025126295801979,-1.48447278785732]},"bbox":[14.025126295801979,-1.48447278785732,14.025126295801979,-1.48447278785732]}
+,
+{"type":"Feature","properties":{"name":"North Carolina State University","type":"Academic","url":"https://www.ncsu.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[14.308263966321922,-1.679881546488577]},"bbox":[14.308263966321922,-1.679881546488577,14.308263966321922,-1.679881546488577]}
+,
+{"type":"Feature","properties":{"name":"University of North Carolina at Chapel Hill","type":"Academic","url":"https://www.unc.edu/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[13.989282107199799,-1.614334585461864]},"bbox":[13.989282107199799,-1.614334585461864,13.989282107199799,-1.614334585461864]}
+,
+{"type":"Feature","properties":{"name":"University of Nebraska-Lincoln","type":"Academic","url":"https://www.unl.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[-0.06281007521828152,2.1371948109180057]},"bbox":[-0.06281007521828152,2.1371948109180057,-0.06281007521828152,2.1371948109180057]}
+,
+{"type":"Feature","properties":{"name":"Dartmouth College","type":"Academic","url":"https://home.dartmouth.edu/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[17.356135833789285,7.138789724222106]},"bbox":[17.356135833789285,7.138789724222106,17.356135833789285,7.138789724222106]}
+,
+{"type":"Feature","properties":{"name":"University of New Hampshire","type":"Academic","url":"https://www.unh.edu/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[18.444766545293312,6.8402141273401105]},"bbox":[18.444766545293312,6.8402141273401105,18.444766545293312,6.8402141273401105]}
+,
+{"type":"Feature","properties":{"name":"Institute For Advanced Study","type":"Academic","url":"https://www.ias.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[16.447472534730508,3.4963528828870967]},"bbox":[16.447472534730508,3.4963528828870967,16.447472534730508,3.4963528828870967]}
+,
+{"type":"Feature","properties":{"name":"Princeton University","type":"Academic","url":"https://www.princeton.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[16.45152239737827,3.4613157380542248]},"bbox":[16.45152239737827,3.4613157380542248,16.45152239737827,3.4613157380542248]}
+,
+{"type":"Feature","properties":{"name":"Rutgers University","type":"Academic","url":"https://www.rutgers.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[16.54614462339756,3.6980303841532804]},"bbox":[16.54614462339756,3.6980303841532804,16.54614462339756,3.6980303841532804]}
+,
+{"type":"Feature","properties":{"name":"Los Alamos National Laboratory","type":"National Laboratory","url":"https://www.lanl.gov/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[-7.796456593704559,-2.389475798005713]},"bbox":[-7.796456593704559,-2.389475798005713,-7.796456593704559,-2.389475798005713]}
+,
+{"type":"Feature","properties":{"name":"Sandia National Laboratories","type":"National Laboratory","url":"https://www.sandia.gov/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[-8.02209374138799,-3.216389178346245]},"bbox":[-8.02209374138799,-3.216389178346245,-8.02209374138799,-3.216389178346245]}
+,
+{"type":"Feature","properties":{"name":"University of New Mexico","type":"Academic","url":"https://www.unm.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[-8.133805395078692,-3.1633266214088]},"bbox":[-8.133805395078692,-3.1633266214088,-8.133805395078692,-3.1633266214088]}
+,
+{"type":"Feature","properties":{"name":"American University of Beirut","type":"Academic","url":"https://www.aub.edu.lb/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[16.863201565876142,3.975511402622529]},"bbox":[16.863201565876142,3.975511402622529,16.863201565876142,3.975511402622529]}
+,
+{"type":"Feature","properties":{"name":"Barnard College","type":"Academic","url":"https://barnard.edu/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[16.85422502627342,4.037391397307199]},"bbox":[16.85422502627342,4.037391397307199,16.85422502627342,4.037391397307199]}
+,
+{"type":"Feature","properties":{"name":"Brookhaven National Laboratory","type":"National Laboratory","url":"https://www.bnl.gov/world/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[17.62964037108069,4.279201221781258]},"bbox":[17.62964037108069,4.279201221781258,17.62964037108069,4.279201221781258]}
+,
+{"type":"Feature","properties":{"name":"CUNY City College","type":"Academic","url":"https://www.ccny.cuny.edu/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[16.859766310619538,4.052268490415808]},"bbox":[16.859766310619538,4.052268490415808,16.859766310619538,4.052268490415808]}
+,
+{"type":"Feature","properties":{"name":"CUNY Graduate School University Center","type":"Academic","url":"https://www.gc.cuny.edu/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[16.85355138377774,3.969951678720272]},"bbox":[16.85355138377774,3.969951678720272,16.85355138377774,3.969951678720272]}
+,
+{"type":"Feature","properties":{"name":"CUNY Herbert H. Lehman College","type":"Academic","url":"https://www.lehman.cuny.edu/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[16.890676100278334,4.106905361265644]},"bbox":[16.890676100278334,4.106905361265644,16.890676100278334,4.106905361265644]}
+,
+{"type":"Feature","properties":{"name":"CUNY York College","type":"Academic","url":"https://www.york.cuny.edu/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[16.848312887141162,3.9758835762493985]},"bbox":[16.848312887141162,3.9758835762493985,16.848312887141162,3.9758835762493985]}
+,
+{"type":"Feature","properties":{"name":"Columbia University","type":"Academic","url":"https://www.columbia.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[16.85422502627342,4.037391397307199]},"bbox":[16.85422502627342,4.037391397307199,16.85422502627342,4.037391397307199]}
+,
+{"type":"Feature","properties":{"name":"Cornell University","type":"Academic","url":"https://www.cornell.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[14.643895040191522,5.216505260325173]},"bbox":[14.643895040191522,5.216505260325173,14.643895040191522,5.216505260325173]}
+,
+{"type":"Feature","properties":{"name":"Manhattan College","type":"Academic","url":"https://manhattan.edu/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[16.87566695385495,4.128507732950414]},"bbox":[16.87566695385495,4.128507732950414,16.87566695385495,4.128507732950414]}
+,
+{"type":"Feature","properties":{"name":"New York Institute of Technology","type":"Academic","url":"https://www.nyit.edu/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[16.84976113961766,3.990998553632852]},"bbox":[16.84976113961766,3.990998553632852,16.84976113961766,3.990998553632852]}
+,
+{"type":"Feature","properties":{"name":"New York University","type":"Academic","url":"https://www.nyu.edu/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[16.849023778064655,3.9443445440685823]},"bbox":[16.849023778064655,3.9443445440685823,16.849023778064655,3.9443445440685823]}
+,
+{"type":"Feature","properties":{"name":"Rensselaer Polytechnic Institute","type":"Academic","url":"https://www.rpi.edu/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[16.679181893696246,5.976838546994224]},"bbox":[16.679181893696246,5.976838546994224,16.679181893696246,5.976838546994224]}
+,
+{"type":"Feature","properties":{"name":"SUNY College at Old Westbury","type":"Academic","url":"https://www.oldwestbury.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[17.13927080256657,4.089296930348429]},"bbox":[17.13927080256657,4.089296930348429,17.13927080256657,4.089296930348429]}
+,
+{"type":"Feature","properties":{"name":"SUNY Polytechnic Institute","type":"Academic","url":"https://sunypoly.edu/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[16.512348942515725,5.892208602132949]},"bbox":[16.512348942515725,5.892208602132949,16.512348942515725,5.892208602132949]}
+,
+{"type":"Feature","properties":{"name":"SUNY at Buffalo","type":"Academic","url":"https://www.buffalo.edu/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[12.91129075024325,5.493976206585269]},"bbox":[12.91129075024325,5.493976206585269,12.91129075024325,5.493976206585269]}
+,
+{"type":"Feature","properties":{"name":"SUNY at Stony Brook","type":"Academic","url":"https://www.stonybrook.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[17.44053640758399,4.280945307570958]},"bbox":[17.44053640758399,4.280945307570958,17.44053640758399,4.280945307570958]}
+,
+{"type":"Feature","properties":{"name":"Siena College","type":"Academic","url":"https://www.siena.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[16.564381115950972,5.921266478693587]},"bbox":[16.564381115950972,5.921266478693587,16.564381115950972,5.921266478693587]}
+,
+{"type":"Feature","properties":{"name":"Syracuse University","type":"Academic","url":"https://www.syracuse.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[14.790604837350836,5.8736310380037455]},"bbox":[14.790604837350836,5.8736310380037455,14.790604837350836,5.8736310380037455]}
+,
+{"type":"Feature","properties":{"name":"University of Rochester","type":"Academic","url":"https://www.rochester.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[13.719922609996017,5.742232446834621]},"bbox":[13.719922609996017,5.742232446834621,13.719922609996017,5.742232446834621]}
+,
+{"type":"Feature","properties":{"name":"Case Western Reserve University","type":"Academic","url":"https://case.edu/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[11.116655708105384,3.6384602580173406]},"bbox":[11.116655708105384,3.6384602580173406,11.116655708105384,3.6384602580173406]}
+,
+{"type":"Feature","properties":{"name":"Euclid Techlabs, LLC","type":"Private","url":"https://euclidtechlabs.com/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[11.258028696880459,3.5386317965961434]},"bbox":[11.258028696880459,3.5386317965961434,11.258028696880459,3.5386317965961434]}
+,
+{"type":"Feature","properties":{"name":"Kenyon College","type":"Academic","url":"https://www.kenyon.edu/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[10.700642629655873,2.4233985687429365]},"bbox":[10.700642629655873,2.4233985687429365,10.700642629655873,2.4233985687429365]}
+,
+{"type":"Feature","properties":{"name":"Oberlin College","type":"Academic","url":"https://www.oberlin.edu/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[10.68878681685711,3.341217145485758]},"bbox":[10.68878681685711,3.341217145485758,10.68878681685711,3.341217145485758]}
+,
+{"type":"Feature","properties":{"name":"Ohio State University","type":"Academic","url":"https://www.osu.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[10.288355951695353,1.9815834568327035]},"bbox":[10.288355951695353,1.9815834568327035,10.288355951695353,1.9815834568327035]}
+,
+{"type":"Feature","properties":{"name":"Ohio University","type":"Academic","url":"https://www.ohio.edu/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[11.072721763121631,1.4033984850851118]},"bbox":[11.072721763121631,1.4033984850851118,11.072721763121631,1.4033984850851118]}
+,
+{"type":"Feature","properties":{"name":"University of Cincinnati","type":"Academic","url":"https://www.uc.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[9.270663948314153,0.9688547379528326]},"bbox":[9.270663948314153,0.9688547379528326,9.270663948314153,0.9688547379528326]}
+,
+{"type":"Feature","properties":{"name":"Youngstown State University","type":"Academic","url":"https://ysu.edu/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[11.887115240051159,3.350063637544593]},"bbox":[11.887115240051159,3.350063637544593,11.887115240051159,3.350063637544593]}
+,
+{"type":"Feature","properties":{"name":"Oklahoma State University","type":"Academic","url":"https://go.okstate.edu/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[-0.40765719192141364,-2.6007117692603705]},"bbox":[-0.40765719192141364,-2.6007117692603705,-0.40765719192141364,-2.6007117692603705]}
+,
+{"type":"Feature","properties":{"name":"University of Oklahoma","type":"Academic","url":"https://www.ou.edu/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[-0.7073198181461948,-3.5169602213910705]},"bbox":[-0.7073198181461948,-3.5169602213910705,-0.7073198181461948,-3.5169602213910705]}
+,
+{"type":"Feature","properties":{"name":"Oregon State University","type":"Academic","url":"https://oregonstate.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[-18.659874279967333,8.634886777755277]},"bbox":[-18.659874279967333,8.634886777755277,-18.659874279967333,8.634886777755277]}
+,
+{"type":"Feature","properties":{"name":"University of Oregon-Eugene","type":"Academic","url":"https://www.uoregon.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[-18.66616043399951,8.099321412785432]},"bbox":[-18.66616043399951,8.099321412785432,-18.66616043399951,8.099321412785432]}
+,
+{"type":"Feature","properties":{"name":"Bucknell University","type":"Academic","url":"https://www.bucknell.edu/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[14.683682903891059,3.7065511093130046]},"bbox":[14.683682903891059,3.7065511093130046,14.683682903891059,3.7065511093130046]}
+,
+{"type":"Feature","properties":{"name":"Carnegie Mellon University","type":"Academic","url":"https://www.cmu.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[12.510971110020806,2.7709290672175015]},"bbox":[12.510971110020806,2.7709290672175015,12.510971110020806,2.7709290672175015]}
+,
+{"type":"Feature","properties":{"name":"Drexel University","type":"Academic","url":"https://drexel.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[16.1630900275082,2.9924424401370184]},"bbox":[16.1630900275082,2.9924424401370184,16.1630900275082,2.9924424401370184]}
+,
+{"type":"Feature","properties":{"name":"Haverford College","type":"Academic","url":"https://www.haverford.edu/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[16.047662597177613,3.0205220626697065]},"bbox":[16.047662597177613,3.0205220626697065,16.047662597177613,3.0205220626697065]}
+,
+{"type":"Feature","properties":{"name":"Lafayette College","type":"Academic","url":"https://www.lafayette.edu/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[15.974266137733663,3.6722740460755356]},"bbox":[15.974266137733663,3.6722740460755356,15.974266137733663,3.6722740460755356]}
+,
+{"type":"Feature","properties":{"name":"Lehigh University","type":"Academic","url":"https://www2.lehigh.edu/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[15.867019552835156,3.5884179168337083]},"bbox":[15.867019552835156,3.5884179168337083,15.867019552835156,3.5884179168337083]}
+,
+{"type":"Feature","properties":{"name":"Pennsylvania State University","type":"Academic","url":"https://www.psu.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[13.992743696562364,3.4191272939914925]},"bbox":[13.992743696562364,3.4191272939914925,13.992743696562364,3.4191272939914925]}
+,
+{"type":"Feature","properties":{"name":"Temple University","type":"Academic","url":"https://www.temple.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[16.162489496868822,3.0510788925186687]},"bbox":[16.162489496868822,3.0510788925186687,16.162489496868822,3.0510788925186687]}
+,
+{"type":"Feature","properties":{"name":"University of Pennsylvania","type":"Academic","url":"https://www.upenn.edu/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[16.13977336080002,2.990081958259404]},"bbox":[16.13977336080002,2.990081958259404,16.13977336080002,2.990081958259404]}
+,
+{"type":"Feature","properties":{"name":"University of Pittsburgh","type":"Academic","url":"https://www.pitt.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[12.510971110020806,2.7709290672175015]},"bbox":[12.510971110020806,2.7709290672175015,12.510971110020806,2.7709290672175015]}
+,
+{"type":"Feature","properties":{"name":"University of Puerto Rico Mayaguez","type":"Academic","url":"https://www.uprm.edu/portada/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[18.9625,-12.51585]},"bbox":[null, null, null, null]}
+,
+{"type":"Feature","properties":{"name":"Brown University","type":"Academic","url":"https://www.brown.edu/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[18.4573536318638,5.485864988220103]},"bbox":[18.4573536318638,5.485864988220103,18.4573536318638,5.485864988220103]}
+,
+{"type":"Feature","properties":{"name":"University of South Carolina","type":"Academic","url":"https://sc.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[12.733240024949135,-3.7771620669911514]},"bbox":[12.733240024949135,-3.7771620669911514,12.733240024949135,-3.7771620669911514]}
+,
+{"type":"Feature","properties":{"name":"Augustana University","type":"Academic","url":"https://www.augie.edu/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[-0.06891798972853502,4.857606409324846]},"bbox":[-0.06891798972853502,4.857606409324846,-0.06891798972853502,4.857606409324846]}
+,
+{"type":"Feature","properties":{"name":"Sanford Laboratory","type":"National Laboratory","url":"https://sanfordlab.org/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[-5.06023553958081,5.9052443078187125]},"bbox":[-5.06023553958081,5.9052443078187125,-5.06023553958081,5.9052443078187125]}
+,
+{"type":"Feature","properties":{"name":"South Dakota School of Mines & Technology","type":"Academic","url":"https://www.sdsmt.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[-4.679022322033158,5.664514520777946]},"bbox":[-4.679022322033158,5.664514520777946,-4.679022322033158,5.664514520777946]}
+,
+{"type":"Feature","properties":{"name":"University of South Dakota","type":"Academic","url":"https://www.usd.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[-0.23882023435324312,4.179516396000318]},"bbox":[-0.23882023435324312,4.179516396000318,-0.23882023435324312,4.179516396000318]}
+,
+{"type":"Feature","properties":{"name":"Oak Ridge National Laboratory","type":"Academic","url":"https://www.ornl.gov/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[9.84127762881408,-2.137613009627904]},"bbox":[9.84127762881408,-2.137613009627904,9.84127762881408,-2.137613009627904]}
+,
+{"type":"Feature","properties":{"name":"University of Tennessee","type":"Academic","url":"https://www.utk.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[10.11324490978583,-2.1711620953575905]},"bbox":[10.11324490978583,-2.1711620953575905,10.11324490978583,-2.1711620953575905]}
+,
+{"type":"Feature","properties":{"name":"Vanderbilt University","type":"Academic","url":"https://www.vanderbilt.edu/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[7.8090316065744565,-2.2210524818953066]},"bbox":[7.8090316065744565,-2.2210524818953066,7.8090316065744565,-2.2210524818953066]}
+,
+{"type":"Feature","properties":{"name":"Baylor University","type":"Academic","url":"https://www.baylor.edu/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[-0.4905370728189411,-7.187597629137227]},"bbox":[-0.4905370728189411,-7.187597629137227,-0.4905370728189411,-7.187597629137227]}
+,
+{"type":"Feature","properties":{"name":"Sam Houston State University","type":"Academic","url":"https://www.shsu.edu/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[0.8494312594828478,-8.02004361501521]},"bbox":[0.8494312594828478,-8.02004361501521,0.8494312594828478,-8.02004361501521]}
+,
+{"type":"Feature","properties":{"name":"Southern Methodist University","type":"Academic","url":"https://www.smu.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[-0.2023830685983299,-5.90676273131524]},"bbox":[-0.2023830685983299,-5.90676273131524,-0.2023830685983299,-5.90676273131524]}
+,
+{"type":"Feature","properties":{"name":"Texas A&M University","type":"Academic","url":"https://www.tamu.edu/index.html","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[0.2047557402646543,-8.197001256062842]},"bbox":[0.2047557402646543,-8.197001256062842,0.2047557402646543,-8.197001256062842]}
+,
+{"type":"Feature","properties":{"name":"Texas A&M University-Corpus Christi","type":"Academic","url":"https://www.tamucc.edu/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[-0.7139487774819813,-10.971337317874722]},"bbox":[-0.7139487774819813,-10.971337317874722,-0.7139487774819813,-10.971337317874722]}
+,
+{"type":"Feature","properties":{"name":"Texas Tech University","type":"Academic","url":"https://www.ttu.edu/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[-4.398605791321131,-5.002126660606199]},"bbox":[-4.398605791321131,-5.002126660606199,-4.398605791321131,-5.002126660606199]}
+,
+{"type":"Feature","properties":{"name":"The University of Texas Rio Grande Valley","type":"Academic","url":"https://www.utrgv.edu/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[-0.8854221498808269,-12.73741049042396]},"bbox":[-0.8854221498808269,-12.73741049042396,-0.8854221498808269,-12.73741049042396]}
+,
+{"type":"Feature","properties":{"name":"The University of Texas at Arlington","type":"Academic","url":"https://www.uta.edu/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[-0.4697901583783778,-6.006010855759337]},"bbox":[-0.4697901583783778,-6.006010855759337,-0.4697901583783778,-6.006010855759337]}
+,
+{"type":"Feature","properties":{"name":"The University of Texas at Austin","type":"Academic","url":"https://www.utexas.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[-1.0318260177057883,-8.43504075762926]},"bbox":[-1.0318260177057883,-8.43504075762926,-1.0318260177057883,-8.43504075762926]}
+,
+{"type":"Feature","properties":{"name":"The University of Texas at Dallas","type":"Academic","url":"https://www.utdallas.edu/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[-0.1520731228462992,-5.763577903005332]},"bbox":[-0.1520731228462992,-5.763577903005332,-0.1520731228462992,-5.763577903005332]}
+,
+{"type":"Feature","properties":{"name":"University of Houston","type":"Academic","url":"https://www.uh.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[1.029514175135251,-8.998260907739825]},"bbox":[1.029514175135251,-8.998260907739825,1.029514175135251,-8.998260907739825]}
+,
+{"type":"Feature","properties":{"name":"William Marsh Rice University","type":"Academic","url":"https://riceconnect.rice.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[0.9579969839705185,-9.006303864369613]},"bbox":[0.9579969839705185,-9.006303864369613,0.9579969839705185,-9.006303864369613]}
+,
+{"type":"Feature","properties":{"name":"Brigham Young University","type":"Academic","url":"https://www.byu.edu/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[-11.320257087575284,2.5369410839944653]},"bbox":[-11.320257087575284,2.5369410839944653,-11.320257087575284,2.5369410839944653]}
+,
+{"type":"Feature","properties":{"name":"University of Utah","type":"Academic","url":"https://www.utah.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[-11.396610976195902,3.068878169852285]},"bbox":[-11.396610976195902,3.068878169852285,-11.396610976195902,3.068878169852285]}
+,
+{"type":"Feature","properties":{"name":"Utah State University","type":"Academic","url":"https://www.usu.edu/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[-11.229973305996888,3.956372741465984]},"bbox":[-11.229973305996888,3.956372741465984,-11.229973305996888,3.956372741465984]}
+,
+{"type":"Feature","properties":{"name":"College of William and Mary","type":"Academic","url":"https://www.wm.edu/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[15.562002467505488,0.09197046332479474]},"bbox":[15.562002467505488,0.09197046332479474,15.562002467505488,0.09197046332479474]}
+,
+{"type":"Feature","properties":{"name":"George Mason University","type":"Academic","url":"https://www.gmu.edu/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[14.779438356010589,1.5564776185913654]},"bbox":[14.779438356010589,1.5564776185913654,14.779438356010589,1.5564776185913654]}
+,
+{"type":"Feature","properties":{"name":"Old Dominion University","type":"Academic","url":"https://www.odu.edu/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[15.94812499741784,-0.2187588359915711]},"bbox":[15.94812499741784,-0.2187588359915711,15.94812499741784,-0.2187588359915711]}
+,
+{"type":"Feature","properties":{"name":"Thomas Jefferson National Accelerator Facility","type":"National Laboratory","url":"https://www.jlab.org/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[15.754832709413826,-0.07716313313009154]},"bbox":[15.754832709413826,-0.07716313313009154,15.754832709413826,-0.07716313313009154]}
+,
+{"type":"Feature","properties":{"name":"University of Virginia","type":"Academic","url":"https://www.virginia.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[14.028729606107557,0.577686049606246]},"bbox":[14.028729606107557,0.577686049606246,14.028729606107557,0.577686049606246]}
+,
+{"type":"Feature","properties":{"name":"Virginia Polytechnic Institute and State University","type":"Academic","url":"https://www.vt.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[12.693300555967816,-0.4905687019387383]},"bbox":[12.693300555967816,-0.4905687019387383,12.693300555967816,-0.4905687019387383]}
+,
+{"type":"Feature","properties":{"name":"Middlebury College","type":"Academic","url":"https://www.middlebury.edu/#","funder":"NSF"},"geometry":{"type":"Point","coordinates":[16.681506678714097,7.3009909535954565]},"bbox":[16.681506678714097,7.3009909535954565,16.681506678714097,7.3009909535954565]}
+,
+{"type":"Feature","properties":{"name":"Pacific Northwest National Laboratory","type":"National Laboratory","url":"https://www.pnnl.gov/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[-15.520694682821889,9.504636029369246]},"bbox":[-15.520694682821889,9.504636029369246,-15.520694682821889,9.504636029369246]}
+,
+{"type":"Feature","properties":{"name":"University of Washington","type":"Academic","url":"https://www.washington.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[-17.15562375373,11.364082154043857]},"bbox":[-17.15562375373,11.364082154043857,-17.15562375373,11.364082154043857]}
+,
+{"type":"Feature","properties":{"name":"Marquette University","type":"Academic","url":"https://www.marquette.edu/","funder":"NSF"},"geometry":{"type":"Point","coordinates":[6.3236445295033565,4.616561303228582]},"bbox":[6.3236445295033565,4.616561303228582,6.3236445295033565,4.616561303228582]}
+,
+{"type":"Feature","properties":{"name":"University of Wisconsin-Eau Claire","type":"Academic","url":"https://www.uwec.edu/","funder":"DOE"},"geometry":{"type":"Point","coordinates":[3.6512621857346703,6.151197536490429]},"bbox":[3.6512621857346703,6.151197536490429,3.6512621857346703,6.151197536490429]}
+,
+{"type":"Feature","properties":{"name":"University of Wisconsin-Madison","type":"Academic","url":"https://www.wisc.edu/","funder":"DOE, NSF"},"geometry":{"type":"Point","coordinates":[5.255230090999628,4.554919578737834]},"bbox":[5.255230090999628,4.554919578737834,5.255230090999628,4.554919578737834]}
+,
+{"type":"Feature","properties":{"name":"University of Wyoming","type":"Academic","url":"https://www.uwyo.edu/index.html","funder":"DOE"},"geometry":{"type":"Point","coordinates":[-6.652719594112601,2.9941960111921238]},"bbox":[-6.652719594112601,2.9941960111921238,-6.652719594112601,2.9941960111921238]}]}

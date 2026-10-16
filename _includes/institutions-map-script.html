@@ -1,0 +1,285 @@
+<script>
+    // API access
+    mapboxgl.accessToken = 'pk.eyJ1Ijoic2J4Y2hpY2FnbyIsImEiOiI4cDJhYlVrIn0.Tmnoj4MzNqoHehzm7pBlfA';
+
+
+
+    // To be updated when info changes
+    // ----------------------------------------------------------------------
+    
+    // this'll need to be updated if new types are added
+    const types = ['Academic', 'Private', 'National Laboratory', 'Non-profit', 'Unlabeled'];
+
+    // fetch the map data
+    fetch('/wp-content/themes/USPP/locationsALBERS_021224.geojson')
+        .then(result => result.json())
+        .then(data => mapIt(data));
+
+    // ----------------------------------------------------------------------
+
+
+
+    // rest of the script is included as a callback 
+    // (to make sure data has been loaded)
+    function mapIt(data) {
+
+      var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/sbxchicago/clsj59i4b03lw01pfg91gcwhi',
+        zoom: 3.25,
+        center: [-8.25,0],
+        attributionControl: false
+      });
+
+      map.on('load', () => {
+
+        let filteredTypes = types;
+
+        // add the points from the geojson file
+        map.addSource('locations', {
+          type: 'geojson',
+          data: data,
+          cluster: true,
+          filter: ['match', ['get', 'type'], filteredTypes, true, false],
+          clusterMaxZoom: 8,
+          clusterRadius: 30
+        });
+
+
+        // add controls
+        map.addControl(new mapboxgl.NavigationControl());
+        map.scrollZoom.disable();
+
+        // add clustered circles
+        map.addLayer({
+          id: 'clusters',
+          type: 'circle',
+          source: 'locations',
+          filter: ['has', 'point_count'],
+          paint: {
+            'circle-color': '#0e3e9c',
+            'circle-radius': [
+              'step',
+              ['get', 'point_count'],
+              4,
+              2,
+              12,
+              6,
+              24,
+              12,
+              32
+            ],
+            // 'circle-stroke-width': 1.5,
+            // 'circle-stroke-color': '#83a8f1'
+          }
+        });
+
+        // add the label for the no. of items in each cluster
+        map.addLayer({
+          id: 'cluster-count',
+          type: 'symbol',
+          source: 'locations',
+          filter: ['has', 'point_count'],
+          layout: {
+          'text-field': '{point_count_abbreviated}',
+          'text-size': 12,
+          'text-offset': [0, 0]
+          },
+          paint:  {
+            'text-color': '#fff'
+          }
+        });
+
+
+
+        /* Filter script */
+        /* ----------------------------------------------------------------- */
+
+        const filterGroup = document.getElementById('filter-group');
+
+        const title = document.createElement('h1');
+        title.textContent = 'DOE/NSF Funded Particle Physics Institutions';
+        filterGroup.appendChild(title);
+
+        for (const feature of data.features) {
+
+          const type = feature.properties.type;
+          let layerID = `poi-${type}`;
+          layerID = layerID.replace(/\s/g, '');
+   
+          // Add a layer for this symbol type if it hasn't been added already.
+          if (!map.getLayer(layerID)) {
+
+            let color;
+             (type == 'Academic') ? color = '#0e3e9c' 
+            :(type == 'Private') ? color = '#0e3e9c'
+            :(type == 'National Laboratory') ? color = '#0e3e9c'
+            :(type == 'Non-profit') ? color = '#0e3e9c'
+            : color = '#83a8f1' ;
+
+            map.addLayer({
+              'id': layerID,
+              'type': 'circle',
+              'source': 'locations',
+              'filter': ['==', 'type', type],
+              'paint': {
+                'circle-color': color,
+                'circle-radius': 5
+              }
+            });
+
+            // Add checkbox and label elements for the layer.
+            const input = document.createElement('input');
+            input.type = 'checkbox';
+            input.id = layerID;
+            input.checked = true;
+            filterGroup.appendChild(input);
+   
+            const label = document.createElement('label');
+            label.setAttribute('for', layerID);
+            label.textContent = type;
+            filterGroup.appendChild(label);
+       
+            const lineBreak = document.createElement('br');
+            filterGroup.appendChild(lineBreak);
+
+            // When the checkbox changes, update the visibility of the layer.
+            input.addEventListener('change', (e) => {
+              let id = layerID.slice(4);
+               (id == 'NationalLaboratory') ? id = 'National Laboratory' 
+              :(id == 'NonProfit') ? id = 'Non-profit'
+              : id = id;
+              if(!e.target.checked){
+                let index = filteredTypes.indexOf(id);
+                filteredTypes.splice(index, 1)
+                // console.dir(filteredTypes);
+                map.getSource('locations').setData(data);
+              } else {
+                filteredTypes.push(id);
+                map.getSource('locations').setData(data);
+              }
+            });
+
+            
+          } // end if
+        } // end for
+
+        let delay = 50,
+		throttled = false;
+
+		function usppMapSet(){
+			if (!throttled) {
+				if (window.innerWidth <= 745) {
+					map.fitBounds([
+					[10, -20], // southwestern corner of the bounds
+					[-15, 20] // northeastern corner of the bounds
+				]);
+				filterGroup.classList.add("filter-hide");
+				}
+				else if (window.innerWidth <= 990) {
+				map.fitBounds([
+					[35, -25], // southwestern corner of the bounds
+					[-50, 25] // northeastern corner of the bounds
+				]);
+				filterGroup.classList.remove("filter-hide");
+				} else {
+					map.setZoom(3.25);
+					map.flyTo({center:[-8.25,0]});
+					filterGroup.classList.remove("filter-hide");
+				}
+				throttled = true;
+			    setTimeout(function() {
+			    	throttled = false;
+			    }, delay);
+			}
+		};
+
+
+		usppMapSet();
+		window.addEventListener('resize', function(){
+			usppMapSet();
+		}); 
+
+
+      }); // end on load
+
+
+      map.on('click', 'clusters', (e) => {
+        const features = map.queryRenderedFeatures(e.point, {
+          layers: ['clusters']
+        });
+        const clusterId = features[0].properties.cluster_id;
+        map.getSource('locations').getClusterExpansionZoom(
+          clusterId,
+          (err, zoom) => {
+            if (err) return;
+           
+            map.easeTo({
+              center: features[0].geometry.coordinates,
+              zoom: zoom
+            });
+          }
+        );
+      });
+
+      
+
+      // Have to iterate through the types to add the events
+      for (var i=0; i<=types.length; i++) {
+        let layerID = 'poi-'+types[i];
+        layerID = layerID.replace(/\s/g, '');
+        map.on('mouseenter', layerID, (e) => {
+          const popup = document.getElementsByClassName('mapboxgl-popup');
+          if ( popup.length ) {
+              popup[0].remove();
+          }
+
+          const coordinates = e.features[0].geometry.coordinates.slice();
+           
+          new mapboxgl.Popup()
+          .setLngLat(coordinates)
+          .setHTML(
+            `<h4>${e.features[0].properties.type}</h4><hr><h3><a href="${e.features[0].properties.url}">${e.features[0].properties.name}</a></h3><p>Funded by: ${e.features[0].properties.funder}</p>`
+          )
+          .addTo(map);
+        });
+
+        map.on('click', layerID, (e) => {
+          const popup = document.getElementsByClassName('mapboxgl-popup');
+          if ( popup.length ) {
+              popup[0].remove();
+          }
+
+          const coordinates = e.features[0].geometry.coordinates.slice();
+           
+          new mapboxgl.Popup()
+          .setLngLat(coordinates)
+          .setHTML(
+            `<h4>${e.features[0].properties.type}</h4><hr><h3><a href="${e.features[0].properties.url}">${e.features[0].properties.name}</a></h3><p>Funded by: ${e.features[0].properties.funder}</p>`
+          )
+          .addTo(map);
+        });
+      }
+
+      map.on('mouseenter', 'clusters', () => {
+        map.getCanvas().style.cursor = 'pointer';
+      });
+      map.on('mouseleave', 'clusters', () => {
+        map.getCanvas().style.cursor = '';
+      });
+      map.on('mouseenter', 'unclustered-point', () => {
+        map.getCanvas().style.cursor = 'pointer';
+      });
+      map.on('mouseleave', 'unclustered-point', () => {
+        map.getCanvas().style.cursor = '';
+      });
+
+
+
+
+    } //end of callback function
+
+
+   
+
+  	</script>

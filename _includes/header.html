@@ -1,0 +1,21 @@
+<header>
+  <div class='grid-wrapper'>
+    <div class='header-title'>
+      <a href='{{ "/" | relative_url }}' class='logo-img' id='ven_ill_link'>
+        <img src='{{ "/wp-content/themes/USPP/img/bowtie.png" | relative_url }}' class='bowtie' alt='' />
+        <h1>{{ site.title }}</h1>
+      </a>
+    </div>
+    <div class='nav--mobile'>
+      <a class='nav--mobile-trigger' href='#' data-menu='primary-nav' id='js-drop'>Menu</a>
+      <div class='grid-wrapper nav--mobile-pane js-dropdown-hidden' id='primary-nav'>
+        {% include nav.html %}
+      </div>
+    </div>
+  </div>
+  <div class='border-thick'>&nbsp;</div>
+  <div class='grid-wrapper nav--desktop'>
+    {% include nav.html %}
+  </div>
+  <div class='border-thick'>&nbsp;</div>
+</header>

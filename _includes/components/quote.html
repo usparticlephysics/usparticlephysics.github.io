@@ -1,0 +1,12 @@
+<div class='comp-quote'>
+<p class='quote-quote'>{{ component.inline | default: component.content }}</p>
+<div class='quote-img'>
+<div class='arrow'></div>
+<div class='img-square'>
+<div class='img-content'>
+<img src='{{ component.img | relative_url }}' />
+</div>
+</div>
+</div>
+<p class='quote-attr'>{{ component.attr }}</p>
+</div>

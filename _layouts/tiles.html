@@ -1,0 +1,12 @@
+---
+layout: wp
+---
+<section id="content" role="main">
+{% include intro.html %}
+<div class="grid-wrapper">
+	<div class='content-wrapper'>
+	{% include tiles.html class="about-about" tiles=page.tiles %}
+	{{ content }}
+	</div>
+</div>
+</section>

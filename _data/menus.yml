@@ -1,0 +1,10 @@
+# Top navigation (header) — also used for the home page teaser tiles
+main:
+  - title: About Particle Physics
+    url: /about-particle-physics/
+  - title: Particle Physics in the U.S.
+    url: /institutions/
+  - title: Resources for Physicists
+    url: /resources/
+  - title: 2023 P5 Report
+    url: /2023-p5-report/

@@ -1,0 +1,22 @@
+---
+layout: wp
+---
+<section id="content" role="main">
+<div class='home-heroimg'>
+	<div class='home-img-content'>
+		<div class='img-overlay'>&nbsp;</div>
+		<img src='{{ page.hero_image | relative_url }}' />
+		<div class="hero-grid-wrapper">
+			<div class="hero-text-wrapper">
+				<p>{{ page.hero_text }}</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="grid-wrapper">
+	<div class='content-wrapper'>
+	{% include tiles.html class="home-teasers" tiles=page.tiles %}
+	{{ content }}
+	</div>
+</div>
+</section>

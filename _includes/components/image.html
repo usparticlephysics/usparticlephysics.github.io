@@ -1,0 +1,8 @@
+<div class='comp-image1'{% if include.width %} style="width: {{ include.width }}"{% endif %}>
+<div class='img-sixteen-nine'>
+<div class='img-content'>
+<img src='{{ include.src | relative_url }}' />
+</div>
+</div>
+<p>{{ include.caption | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
+</div>

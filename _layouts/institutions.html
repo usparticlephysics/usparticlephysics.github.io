@@ -1,0 +1,26 @@
+---
+layout: wp
+---
+<section id="content" role="main">
+{% include intro.html class="inst-intro" %}
+<div class='content-wrapper'>
+	<div class="grid-wrapper">
+		{% include institutions-map.html %}
+		<section class='inst-list'>
+			<h1>{{ page.list_title }} <span class='note'>{{ page.list_note }}</span></h1>
+			{%- for column in site.data.institutions %}
+			<div class='inst-list-col0{{ forloop.index }}'><hr />
+				{%- for state in column %}
+				<h3>{{ state.state }}</h3>
+				{%- for inst in state.institutions %}
+				<p>{{ inst }}</p>
+				{%- endfor %}
+				{%- endfor %}
+			</div>
+			{%- endfor %}
+		</section>
+		{{ content }}
+	</div>
+</div>
+{% include institutions-map-script.html %}
+</section>

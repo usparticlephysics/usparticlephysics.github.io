@@ -1,0 +1,11 @@
+<nav>
+  <ul>
+    {% for item in site.data.menus.main %}
+    <li>
+      <a {% if page.url == item.url %}class='current-page' {% endif %}href='{{ item.url | relative_url }}'>
+        {{ item.title }}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</nav>
